@@ -16,3 +16,5 @@
 **** Passing arguments
 
 ** Version control: Git
+
+   Installation on Ubuntu: =sudo apt-get install git=.
