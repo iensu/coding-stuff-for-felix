@@ -1,0 +1,18 @@
+* Coding Notes and References
+** Shell basics
+*** Basic commands
+**** Combining commands
+*** The shell environment
+**** The =PATH= environment variable
+**** Saving modifications
+     Modifications can be saved across terminal/console sessions by modifying the either =~/.bashrc= or =~/.bash-profile=. The difference between these two files is that =~/.bashrc= is read on every new terminal session (e.g. when opening a new prompt window/tab), whereas =~/.bash-profile= is only read when you first log in to the terminal.
+
+     Most of the time you want to put your modifications in =~/.bashrc=.
+
+     Files like these which are used to modify the shell environment or configure a program usually begin with a =.= (dot) and are commonly referred to as /dotfiles/.
+
+*** Writing shell scripts
+**** Shebang =#!=
+**** Passing arguments
+
+** Version control: Git
